@@ -18,4 +18,23 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>如何利用hexo和github搭建自己的博客网站（亲自实验过的保姆级）</title>
+    <url>/2024/04/29/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8hexo%E5%92%8Cgithub%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%EF%BC%88%E4%BA%B2%E8%87%AA%E5%AE%9E%E9%AA%8C%E8%BF%87%E7%9A%84%E4%BF%9D%E5%A7%86%E7%BA%A7%EF%BC%89/</url>
+    <content><![CDATA[<p>结合自己制作这个网站的经验包括b站上的教程，写的一个保姆级如何制作的步骤，亲身制作才知道B站的这些教程少了多少步骤，大体的步骤还是在该视频链接中，但一些该视频忽略的部分和原理，我会在下边说明<br>此为该网站第一篇文章</p>
+<h1 id="1-前期基本的搭建以及主题选择："><a href="#1-前期基本的搭建以及主题选择：" class="headerlink" title="1 前期基本的搭建以及主题选择："></a>1 前期基本的搭建以及主题选择：</h1><p>  B站该UP主是我找过把这个过程讲的最清晰一步一步来的了（符链接如下）</p>
+<p>  <a href="https://www.bilibili.com/video/BV1Eg41157tL/?share_source=copy_web&vd_source=73fd4b068c59de08a8b8d4555d97fffe">[教程]Hexo &amp; Github搭建自己的专属博客 </a></p>
+<p>  尽管如此还是有很多地方有问题</p>
+<h2 id="1-1next-主题的版本问题："><a href="#1-1next-主题的版本问题：" class="headerlink" title="1.1next 主题的版本问题："></a>1.1next 主题的版本问题：</h2><p>用next和next官网的next主题配置文件由于版本未更新，我在实验的过程部署不到github上，另外本身也够老旧了，附最新链接如下：<br><a href="https://github.com/next-theme/hexo-theme-next">https://github.com/next-theme/hexo-theme-next</a></p>
+<h1 id="2-如何部署到github上（重点！）"><a href="#2-如何部署到github上（重点！）" class="headerlink" title="2 如何部署到github上（重点！）"></a>2 如何部署到github上（重点！）</h1><p>按视频里的步骤走没错，但他少说了很多，在hexo d操作之后只是上传到github的库里了，并没有生成网页，需要按如图</p>
+<img src="/2024/04/29/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8hexo%E5%92%8Cgithub%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%EF%BC%88%E4%BA%B2%E8%87%AA%E5%AE%9E%E9%AA%8C%E8%BF%87%E7%9A%84%E4%BF%9D%E5%A7%86%E7%BA%A7%EF%BC%89/1.png" class="" title="图片加载失败">
+<img src="/2024/04/29/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8hexo%E5%92%8Cgithub%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%EF%BC%88%E4%BA%B2%E8%87%AA%E5%AE%9E%E9%AA%8C%E8%BF%87%E7%9A%84%E4%BF%9D%E5%A7%86%E7%BA%A7%EF%BC%89/2.png" class="" title="图片加载失败">
+]]></content>
+      <categories>
+        <category>网页设计</category>
+      </categories>
+      <tags>
+        <tag>-早期文案</tag>
+      </tags>
+  </entry>
 </search>
