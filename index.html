@@ -211,7 +211,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2024-04-29 19:40:15 / 修改时间：22:04:35" itemprop="dateCreated datePublished" datetime="2024-04-29T19:40:15+08:00">2024-04-29</time>
+              <time title="创建时间：2024-04-29 19:40:15 / 修改时间：22:21:58" itemprop="dateCreated datePublished" datetime="2024-04-29T19:40:15+08:00">2024-04-29</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -235,14 +235,21 @@
 
       
           <p>结合自己制作这个网站的经验包括b站上的教程，写的一个保姆级如何制作的步骤，亲身制作才知道B站的这些教程少了多少步骤，大体的步骤还是在该视频链接中，但一些该视频忽略的部分和原理，我会在下边说明<br>此为该网站第一篇文章</p>
-<h1 id="1-前期基本的搭建以及主题选择："><a href="#1-前期基本的搭建以及主题选择：" class="headerlink" title="1 前期基本的搭建以及主题选择："></a>1 前期基本的搭建以及主题选择：</h1><p>  B站该UP主是我找过把这个过程讲的最清晰一步一步来的了（符链接如下）</p>
+<h1 id="1-前期基本的搭建以及主题选择："><a href="#1-前期基本的搭建以及主题选择：" class="headerlink" title="1 前期基本的搭建以及主题选择："></a>1 前期基本的搭建以及主题选择：</h1><p>  B站该UP主是我找过把这个过程讲的最清晰一步一步来的了（符链接如下），选择next主题的原因是他有很多强大的功能，并且官网仍然存在不断更新，挺值得开发的</p>
 <p>  <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Eg41157tL/?share_source=copy_web&vd_source=73fd4b068c59de08a8b8d4555d97fffe">[教程]Hexo &amp; Github搭建自己的专属博客 </a></p>
 <p>  尽管如此还是有很多地方有问题</p>
 <h2 id="1-1next-主题的版本问题："><a href="#1-1next-主题的版本问题：" class="headerlink" title="1.1next 主题的版本问题："></a>1.1next 主题的版本问题：</h2><p>用next和next官网的next主题配置文件由于版本未更新，我在实验的过程部署不到github上，另外本身也够老旧了，附最新链接如下：<br><a target="_blank" rel="noopener" href="https://github.com/next-theme/hexo-theme-next">https://github.com/next-theme/hexo-theme-next</a></p>
-<h1 id="2-如何部署到github上（重点！）"><a href="#2-如何部署到github上（重点！）" class="headerlink" title="2 如何部署到github上（重点！）"></a>2 如何部署到github上（重点！）</h1><p>按视频里的步骤走没错，但他少说了很多，在hexo d操作之后只是上传到github的库里了，并没有生成网页，需要按如图</p>
+<h1 id="如何部署到github上（重点！）"><a href="#如何部署到github上（重点！）" class="headerlink" title="如何部署到github上（重点！）"></a>如何部署到github上（重点！）</h1><p>按视频里的步骤走没错，但他少说了很多，在hexo d操作之后只是上传到github的库里了，并没有生成网页，需要按如图，先在个人库页面找到settings</p>
 <img src="/2024/04/29/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8hexo%E5%92%8Cgithub%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%EF%BC%88%E4%BA%B2%E8%87%AA%E5%AE%9E%E9%AA%8C%E8%BF%87%E7%9A%84%E4%BF%9D%E5%A7%86%E7%BA%A7%EF%BC%89/1.png" class="" title="图片加载失败">
+<p>再在settings界面找到下方的page，即网页界面</p>
 <img src="/2024/04/29/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8hexo%E5%92%8Cgithub%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%EF%BC%88%E4%BA%B2%E8%87%AA%E5%AE%9E%E9%AA%8C%E8%BF%87%E7%9A%84%E4%BF%9D%E5%A7%86%E7%BA%A7%EF%BC%89/2.png" class="" title="图片加载失败">
+<p>然后在右侧找到branch，因为我们的配置文件储存在了branch（分支）master中，所以选择这里的master作为网站的根目录，最后点击save</p>
+<img src="/2024/04/29/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8hexo%E5%92%8Cgithub%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%EF%BC%88%E4%BA%B2%E8%87%AA%E5%AE%9E%E9%AA%8C%E8%BF%87%E7%9A%84%E4%BF%9D%E5%A7%86%E7%BA%A7%EF%BC%89/3.png" class="" title="图片加载失败">
+<p>save之后就为你的网页配置上了，然后可在actions页面查看配置是否成功，旁边的小点为绿色则为成功，不成功可点开查看配置哪一步出问题了</p>
+<img src="/2024/04/29/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8hexo%E5%92%8Cgithub%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%EF%BC%88%E4%BA%B2%E8%87%AA%E5%AE%9E%E9%AA%8C%E8%BF%87%E7%9A%84%E4%BF%9D%E5%A7%86%E7%BA%A7%EF%BC%89/4.png" class="" title="图片加载失败">
 
+<h1 id="Next主题的美化"><a href="#Next主题的美化" class="headerlink" title="Next主题的美化"></a>Next主题的美化</h1><p>直接上链接，写这篇文章的时候我也在进行美化，这几个链接够用了，没有的就上csdn找</p>
+<h2 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV16W411t7mq/?share_source=copy_web&vd_source=73fd4b068c59de08a8b8d4555d97fffe">视频教程</a></h2><h2 id="给hexo文案增加图片"><a href="#给hexo文案增加图片" class="headerlink" title="给hexo文案增加图片"></a><a target="_blank" rel="noopener" href="https://blog.csdn.net/nineya_com/article/details/103321401">给hexo文案增加图片</a></h2><h2 id="next主题官网，单纯看里边文案也可以理解"><a href="#next主题官网，单纯看里边文案也可以理解" class="headerlink" title="next主题官网，单纯看里边文案也可以理解"></a><a target="_blank" rel="noopener" href="https://theme-next.iissnan.com/getting-started.html">next主题官网，单纯看里边文案也可以理解</a></h2>
       
     </div>
 
